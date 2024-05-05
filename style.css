@@ -6,3 +6,17 @@
     --gradient-2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
 }
 
+@font-face {
+    font-family: JosefinLight;
+    src: url('./fonts/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: JosefinRegular;
+    src: url('./fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: JosefinSemiBold;
+    src: url('./fonts/JosefinSans-SemiBold.ttf');
+}
