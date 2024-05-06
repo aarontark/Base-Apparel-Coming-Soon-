@@ -30,6 +30,8 @@
 body {
     background: var(--gradient-1);
     height: 100vh;
+    font-family: JosefinRegular, serif;
+    color: var(--desaturated-red);
 }
 
 .apparel-card {
@@ -37,6 +39,10 @@ body {
     flex-direction: column;
 }
 
+.logo-container {
+    padding: 1rem 0 2rem 1.75rem;
+}
+
 .logo {
-    width: 10rem;
+    width: 7em;
 }
