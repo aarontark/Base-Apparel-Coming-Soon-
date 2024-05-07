@@ -80,7 +80,7 @@ body {
 }
 
 .paragraph {
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     padding-bottom: 1rem;
 }
@@ -132,7 +132,7 @@ body {
 
 .submit {
     height: 100%;
-    padding: 0 2.75rem;
+    padding: 0 2.5rem;
     border-radius: 1.75rem;
     border: none;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
