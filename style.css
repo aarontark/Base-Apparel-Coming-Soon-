@@ -149,3 +149,8 @@ body {
     background: transparent;
     padding-bottom: .5rem;
 }
+
+.link {
+    text-decoration: none;
+    color: rgba(58, 4, 255, 0.664);
+}
