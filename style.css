@@ -4,7 +4,6 @@
     --dark-grayish-red: hsl(0, 6%, 24%);
     --gradient-1: linear-gradient(135deg, hsl(0, 0%, 100%) 25%, hsl(0, 100%, 98%) 50%);
     --gradient-2: linear-gradient(135deg, rgba(248,191,191,1) 0%, rgba(238,140,140,1) 89%);
-
 }
 
 @font-face {
@@ -41,6 +40,7 @@ body {
 .apparel-card {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 .logo-container {
@@ -82,6 +82,7 @@ body {
 .paragraph {
     font-size: .9rem;
     line-height: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .content-form {
@@ -89,7 +90,7 @@ body {
     display: grid;
     grid-template-columns: 1fr auto auto;
     position: relative;
-    min-height: 4.25rem;
+    min-height: 3rem;
 }
 
 .email-input {
@@ -104,8 +105,13 @@ body {
 }
 
 .email-input::placeholder {
-    color: hsla(0, 36%, 70%, 0.514);
+    color: hsla(0, 36%, 70%, 0.637);
     font-size: .95rem;
+}
+
+.email-input:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.664);
 }
 
 .submit-section {
@@ -123,9 +129,10 @@ body {
 
 .submit {
     height: 100%;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
     border-radius: 1.75rem;
     border: none;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 .attribution {
